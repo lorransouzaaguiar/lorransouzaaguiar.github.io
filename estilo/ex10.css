@@ -1,0 +1,15 @@
+a:active{
+    color: darkgreen;
+}
+
+a:visited{
+    color: maroon;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a::before{
+    content: '\203A ';
+}

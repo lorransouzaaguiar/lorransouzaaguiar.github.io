@@ -1,0 +1,41 @@
+nav {
+    background-image: url("../img/Sprite_g.jpg");
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    
+}
+
+li:hover{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-1{
+    margin: 0;
+    width: 400px;
+}
+
+.menu-1 ul{
+    display: flex;
+    text-align: center;
+}
+
+.menu-2{
+    width: 100px;
+}
+
+.menu-2 li{
+    border-bottom: 1px solid white;
+}
