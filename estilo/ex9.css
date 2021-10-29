@@ -1,0 +1,16 @@
+main{
+    background-image: url('../img/img-pc.jpg');
+}
+
+main h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article {
+    background-color: #e5e4e4;
+}
+
+article p {
+    text-align: center;
+    color: #a9a5a5;
+}
