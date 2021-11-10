@@ -1,0 +1,76 @@
+.header-container{
+    display: grid;
+    grid-template-columns: 20% auto;
+    background: rgb(136,68,238);
+    background: linear-gradient(135deg, rgba(136,68,238,1) 52%, rgba(176,125,251,1) 100%);
+}
+
+.header-logo{
+    cursor: pointer;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.header-logo img{
+    max-width: 250px;
+    height: 100%;
+    margin: auto 0;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-content ul{
+    display: flex;
+    justify-content: end;
+}
+
+.header-content .menu-1 li{
+    padding: 10px 20px 10px 20px;
+    margin: 15px 0;
+    border-right: 1px solid white;
+}
+
+.header-content .menu-1 li a{
+    color: white;
+}
+
+.header-content .menu-1 li:nth-child(4) {
+   border: none;
+}
+
+.header-content form{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.header-content form label, input, button{
+    padding: 10px;
+}
+
+.header-content form label{
+    background-color: #e4e6e7;
+}
+
+.header-content form .link{
+    margin-top: 5px;
+    text-align: end;
+}
+
+.header-content .menu-2 a {
+    text-align: center;
+    align-self: center;
+    background-color: rgba(0,0,0, .1);
+    border-radius: 5px;
+    color: white;
+    transition: 0.10s;
+    padding: 10px 50px;
+    margin: 0 10px;
+}
+
+.header-content .menu-2 a:hover{
+    background: rgba(0,0,0, .5);
+}

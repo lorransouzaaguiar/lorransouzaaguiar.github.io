@@ -1,0 +1,66 @@
+.main-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+/* estilos em comum */
+
+    .article{
+        background-color: #e4e6e7;
+        padding: 20px;
+    }
+
+    .article header{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    /* article menu footer*/
+
+    .menu-footer{
+        display: flex;
+    }
+
+    .menu-footer .list{
+        width: 150px;
+        text-align: end;
+    }
+
+    .menu-footer .list li{
+        margin-bottom: 5px;
+    }
+
+    .menu-footer .menu li{
+        margin-bottom: 5px;
+        padding-left: 10px;
+    }
+
+/*      */
+
+
+/* article 1*/
+
+.main-container .article-1 .article-1-content{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.main-container .article-1 .article-1-content img{
+    max-width: 150px;
+}
+
+.main-container .article-1 .article-1-content .text{
+    padding-left: 10px;
+}
+
+/* article 3*/
+
+.main-container .article-3 .menu-footer .list{
+    width: 120px;
+    text-align: start;
+}
